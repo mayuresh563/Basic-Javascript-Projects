@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filterable Image Gallery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Filter Buttons -->
+    <div class="filter_buttons">
+      <button class="active" data-name="all">Show all</button>
+      <button data-name="phones">Phones</button>
+      <button data-name="clothes">Clothes</button>
+      <button data-name="shoes">Shoes</button>
+    </div>
+    <!-- Image Cards -->
+    <div class="filterable_cards">
+      <div class="card" data-name="phones">
+        <img src="images/phone-1.jpg" alt="phone" >
+        <div class="card_body">
+          <h6 class="card_title">Phone</h6>
+          <p class="cart_text">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="card" data-name="phones">
+        <img src="images/phone-2.jpg" alt="phone" >
+        <div class="card_body">
+          <h6 class="card_title">Phone</h6>
+          <p class="cart_text">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="card" data-name="clothes">
+        <img src="images/cloth-1.jpg" alt="cloth" >
+        <div class="card_body">
+          <h6 class="card_title">Cloth</h6>
+          <p class="cart_text">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="card" data-name="clothes">
+        <img src="images/cloth-2.jpg" alt="cloth" >
+        <div class="card_body">
+          <h6 class="card_title">Cloth</h6>
+          <p class="cart_text">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="card" data-name="clothes">
+        <img src="images/cloth-3.jpg" alt="cloth" >
+        <div class="card_body">
+          <h6 class="card_title">Cloth</h6>
+          <p class="cart_text">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="card" data-name="shoes">
+        <img src="images/shoe-1.jpg" alt="shoe" >
+        <div class="card_body">
+          <h6 class="card_title">Shoe</h6>
+          <p class="cart_text">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      
+      <div class="card" data-name="shoes">
+        <img src="images/shoe-2.jpg" alt="show" >
+        <div class="card_body">
+          <h6 class="card_title">Shoe</h6>
+          <p class="cart_text">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js" defer></script>
+</body>
+</html>
